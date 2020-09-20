@@ -1,0 +1,63 @@
+.title_contents {
+  font-weight: 500;
+  background-image: url("https://source.unsplash.com/1920x1080?programming");
+  margin-bottom: 20px;
+}
+
+.title_contents .filter {
+  background-color: black;
+  opacity: 0.7;
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-size: 30px;
+}
+
+.start {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info .title {
+  font-size: 30px;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.member {
+  margin: 10px;
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.info .description {
+  margin-bottom: 20px;
+}
+
+.projects .title {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.projects .card {
+  text-align: left;
+  margin: 15px;
+}
+
+.projectCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
